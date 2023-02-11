@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body id="home">
+    <!-- NAV-BAR -->
+    <nav class="nav-bar">
+      <ul class="nav-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#exp">Experience</a></li>
+        <li><a href="#port">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- NAV-BAR -->
+    <header class="container">
+      <img
+        class="perfil-photo"
+        src="./assets/images/WhatsApp Image 2023-01-31 at 11.27.18 PM (1).jpeg"
+        alt="Foto de perfil"
+      />
+      <h3 class="hi">Hi, i'm Juan</h3>
+      <h1 class="title">
+        Designer and<br />
+        web development
+      </h1>
+      <div id="about" class="icons">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/juan-esteban-manzanera-7bb071168/"
+          ><img src="./assets/social-media/linkedin.svg" alt="hola"
+        /></a>
+        <a target="_blank" href="https://www.instagram.com/juanchomanza/?hl=es"
+          ><img src="./assets/social-media/instagram.svg" alt="hola"
+        /></a>
+        <a target="_blank" href="https://twitter.com/juanchomanza"
+          ><img src="./assets/social-media/twitter.svg" alt="hola"
+        /></a>
+      </div>
+      <div class="about">
+        <p class="subtitle">About me</p>
+        <p class="subtitle__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          reprehenderit earum molestiae praesentium dicta atque veritatis et
+          debitis obcaecati dolorum dolores itaque dolor vero, commodi
+          aspernatur! Eos velit repellendus soluta! Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit.
+          <span id="skills"></span> Necessitatibus, ut reiciendis? Maxime
+          asperiores omnis labore harum beatae accusantium atque commodi
+          provident praesentium, iusto inventore nisi dignissimos aut officia
+          minus repellendus?
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <div class="balls">
+          <div class="ball1"></div>
+          <div class="ball2"></div>
+          <div class="ball3"></div>
+        </div>
+        <div class="skills">
+          <p class="subtitle">My skills</p>
+          <div class="container2">
+            <div class="skill">
+              <div class="circle">
+                <img class="icon" src="./assets/skills/mobile.svg" alt="" />
+              </div>
+              <p>Mobile app design</p>
+            </div>
+            <div class="skill">
+              <div class="circle">
+                <img class="icon" src="./assets/skills/motion.svg" alt="" />
+              </div>
+              <p>Motion design</p>
+            </div>
+            <div class="skill">
+              <div class="circle">
+                <img class="icon" src="./assets/skills/material.svg" alt="" />
+              </div>
+              <p>Creation of design system</p>
+            </div>
+            <div class="skill">
+              <div class="circle">
+                <img class="icon" src="./assets/skills/web.svg" alt="" />
+              </div>
+              <p id="exp">Web development</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div>
+          <p class="subtitle">Experience</p>
+        </div>
+        <div class="experience__container">
+          <div class="experience__row">
+            <p class="experience__company">2016-2018</p>
+            <div class="experience__row__info">
+              <p class="experience__task">Visual designer</p>
+              <p class="experience__company">Wizeline</p>
+            </div>
+          </div>
+          <div class="experience__row middle">
+            <p class="experience__company">2018-2019</p>
+            <div class="experience__row__info">
+              <p class="experience__task">Product designer</p>
+              <p class="experience__company">Microsoft</p>
+            </div>
+          </div>
+          <div class="experience__row">
+            <p class="experience__company">2019-2021</p>
+            <div class="experience__row__info">
+              <p class="experience__task">UI Engineer</p>
+              <p class="experience__company">Google</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="port" class="container">
+        <div class="balls1">
+          <div class="ball1"></div>
+          <div class="ball2"></div>
+          <div class="ball3"></div>
+        </div>
+        <div class="subtitle portfolio">Portfolio</div>
+        <div class="portfolio__container">
+          <img
+            class="portfolio__img"
+            src="./assets/images/ejemplo 1.png"
+            alt=""
+          />
+          <img
+            class="portfolio__img"
+            src="./assets/images/ejemplo 2.png"
+            alt=""
+          />
+          <img
+            class="portfolio__img"
+            src="./assets/images/ejemplo 3.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="container" id="contact">
+        <div class="subtitle">Contact</div>
+        <div class="contact__container">
+          <div class="contact__container__section">
+            <div class="contact__section">
+              <img src="./assets/contatc/phone.svg" alt="" />
+            </div>
+            <p class="contact__main">Phone number</p>
+            <p class="experience__company">+573156229440</p>
+          </div>
+          <div class="contact__container__section">
+            <div class="contact__section">
+              <img src="./assets/contatc/mail 1.svg" alt="" />
+            </div>
+            <p class="contact__main">Email</p>
+            <p class="experience__company">manzanera1511@gmail.com</p>
+          </div>
+        </div>
+      </section>
+      <footer class="container footer">
+        <p>Hecho con ♥ en Academlo</p>
+        <p>Por Juan E. Manzanera</p>
+      </footer>
+    </main>
+  </body>
+</html>
