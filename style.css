@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   font-family: "Rubik";
+  text-decoration: none;
 }
 /* Material */
 .balls {
@@ -47,6 +48,7 @@
   border: white solid 1px;
   border-radius: 50%;
 }
+
 
 /* SCROLL */
 body::-webkit-scrollbar{
@@ -224,10 +226,11 @@ body {
   display: flex;
   gap: 5%;
   justify-content: center;
+  text-align: center;
 }
 
 .portfolio__img {
-  width: 25%;
+  width: 420px;
 }
 
 /* contact */

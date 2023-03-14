@@ -16,20 +16,24 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://kit.fontawesome.com/2619539e7e.css" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/2619539e7e.css"
+      crossorigin="anonymous"
+    />
     <title>Juan E. Manzanera</title>
   </head>
   <body id="home">
     <!-- NAV-BAR -->
     <div class="nav__togg__container">
-      <img class="nav__toggle" src="./assets/bars-svgrepo-com.svg" alt="">
+      <img class="nav__toggle" src="./assets/bars-svgrepo-com.svg" alt="" />
     </div>
     <nav class="nav-bar-responsive">
       <ul class="nav-items__responsive">
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About me</a></li> 
+        <li><a href="#about">About me</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#exp">Experience</a></li>
+        <!-- <li><a href="#exp">Experience</a></li> -->
         <li><a href="#port">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -39,7 +43,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About me</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#exp">Experience</a></li>
+        <!-- <li><a href="#exp">Experience</a></li> -->
         <li><a href="#port">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -62,26 +66,27 @@
           href="https://www.linkedin.com/in/juan-esteban-manzanera-7bb071168/"
           ><img src="./assets/social-media/linkedin.svg" alt="hola"
         /></a>
-        <a target="_blank" href="https://www.instagram.com/juanchomanza/?hl=es"
-          ><img src="./assets/social-media/instagram.svg" alt="hola"
+        <a target="_blank" href="https://github.com/juanchomanza"
+          ><img width="50px" src="./assets/social-media/github.png" alt="hola"
         /></a>
-        <a target="_blank" href="https://twitter.com/juanchomanza"
+        <!-- <a target="_blank" href="https://twitter.com/juanchomanza"
           ><img src="./assets/social-media/twitter.svg" alt="hola"
-        /></a>
+        /></a> -->
       </div>
       <div class="about">
         <p class="subtitle">About me</p>
         <p class="subtitle__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-          reprehenderit earum molestiae praesentium dicta atque veritatis et
-          debitis obcaecati dolorum dolores itaque dolor vero, commodi
-          aspernatur! Eos velit repellendus soluta! Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit.
-          <span id="skills"></span> Necessitatibus, ut reiciendis? Maxime
-          asperiores omnis labore harum beatae accusantium atque commodi
-          provident praesentium, iusto inventore nisi dignissimos aut officia
-          minus repellendus?
+          I am a 22 year old Colombian young man, with great goals and
+          expectations about the IT world, I was always good at mathematics and
+          I love logic and knowing the why of things, besides being creative.
+          This led me to the world of programming, where I discovered what I was
+          passionate about, I started studying Python and it became my favorite
+          language.
+          
+          <span id="skills"></span> 
         </p>
+        <br>
+        <p style="font-size: large;">I have knowledge about Python, Django, FastAPI, Selenium, Web Scraping, SQL, JavaScritp, CSS, HTML and React.</p>
       </div>
     </header>
     <main>
@@ -98,30 +103,31 @@
               <div class="circle">
                 <img class="icon" src="./assets/skills/mobile.svg" alt="" />
               </div>
-              <p>Mobile app design</p>
+              <p>Mobile and Desktop</p>
+              <p>Web Design</p>
             </div>
             <div class="skill">
               <div class="circle">
                 <img class="icon" src="./assets/skills/motion.svg" alt="" />
               </div>
-              <p>Motion design</p>
+              <p>Backend and Data Bases</p>
             </div>
             <div class="skill">
               <div class="circle">
                 <img class="icon" src="./assets/skills/material.svg" alt="" />
               </div>
-              <p>Creation of design system</p>
+              <p>Web Scraping</p>
             </div>
             <div class="skill">
               <div class="circle">
                 <img class="icon" src="./assets/skills/web.svg" alt="" />
               </div>
-              <p id="exp">Web development</p>
+              <p id="exp">Web Development</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="container">
+      <!-- <section class="container">
         <div>
           <p class="subtitle">Experience</p>
         </div>
@@ -148,7 +154,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section id="port" class="container">
         <div class="balls1">
           <div class="ball1"></div>
@@ -157,21 +163,36 @@
         </div>
         <div class="subtitle portfolio">Portfolio</div>
         <div class="portfolio__container">
-          <img
-            class="portfolio__img"
-            src="./assets/images/ejemplo 1.png"
-            alt=""
-          />
-          <img
-            class="portfolio__img"
-            src="./assets/images/ejemplo 2.png"
-            alt=""
-          />
-          <img
-            class="portfolio__img"
-            src="./assets/images/ejemplo 3.png"
-            alt=""
-          />
+          <div class="img__container">
+            <a href="https://clowdy.netlify.app/" target="_blank">
+              <p style="color:white">Clowdy - Weather info</p>
+              <img
+                class="portfolio__img"
+                src="./assets/images/portfolio_img1.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="img__container">
+            <a href="https://endlesspace.netlify.app/" target="_blank">
+              <p style="color:white">Endlesspace - Random space phrases</p>
+              <img
+                class="portfolio__img"
+                src="./assets/images/portfolio_img2.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="img__container">
+            <a href="https://github.com/juanchomanza/django_api/blob/master/API_Project/api/views.py" target="_blank">
+              <p style="color:white">API - CRUD - Django</p>
+              <img height="233px"
+                class="portfolio__img"
+                src="./assets/images/portfolio_img3.png"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
       </section>
       <section class="container" id="contact">
